@@ -1,0 +1,13 @@
+package com.dataPower.dataPowerAPI;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class DataPowerApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
