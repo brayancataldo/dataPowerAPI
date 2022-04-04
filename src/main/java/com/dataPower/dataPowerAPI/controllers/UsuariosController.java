@@ -26,6 +26,11 @@ public class UsuariosController {
 	@Autowired
 	private UsuarioService usuarioService;
 	
+	@RequestMapping("/")
+    public String home(){
+        return "Hello World!";
+    }
+	
 	@GetMapping
 	public ResponseEntity<List<Usuario>> findAll() {
 		return new ResponseEntity<>(usuarioService.findAll(), HttpStatus.OK);
